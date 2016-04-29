@@ -1,3 +1,5 @@
+Link: http://students.washington.edu/neaville/info474/Data-Exploration-Tool/
+
 The dataset I used is very new (in fact it was released after the deadline for this assignment) because I wanted to create something modern that no one had created a visualization of before. My dataset was counts of cyclist volumes within Seattle on different streets and different intervals. 
 
 I originally planned on creating two other visualizaitons and spent hours trying to get started with datasets, one for the drugs involved in American drug overdoses and the other employment statistics within Bolivia. I realized both were too massive to visualize, and I would have to simplify them greatly in order to be understood.
