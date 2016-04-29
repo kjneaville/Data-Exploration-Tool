@@ -1,0 +1,1893 @@
+
+{
+  "meta" : {
+    "view" : {
+      "id" : "m83s-wdbc",
+      "name" : "2014 Short Duration Automated Bike Counts",
+      "attribution" : "Seattle Department of Transportation",
+      "averageRating" : 0,
+      "category" : "Transportation",
+      "createdAt" : 1461621121,
+      "description" : "SDOT used Eco-Counter automated pneumatic tube counters to count cyclist volumes across the city. Most counts are for six days, but some may be longer or shorter. This is the raw data from counts conducted during 2014.\r\n\r\nCounts are for both directions (when a street is not one way) unless specified in the Location Field.\r\nSB = Southbound\r\nNB = Northbound\r\nEB = Eastbound\r\nWB = Westbound",
+      "displayType" : "table",
+      "downloadCount" : 1,
+      "indexUpdatedAt" : 1461633945,
+      "licenseId" : "PUBLIC_DOMAIN",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 20376817,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1461622163,
+      "publicationGroup" : 10280177,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1461621264,
+      "rowsUpdatedBy" : "pf4e-vhvy",
+      "tableId" : 10280177,
+      "totalTimesRated" : 0,
+      "viewCount" : 9,
+      "viewLastModified" : 1461624569,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { }
+      }, {
+        "id" : 252327693,
+        "name" : "CompKey",
+        "dataTypeName" : "number",
+        "fieldName" : "compkey",
+        "position" : 2,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871167,
+        "width" : 184,
+        "cachedContents" : {
+          "non_null" : 52,
+          "smallest" : "1570",
+          "sum" : "2900032",
+          "null" : 0,
+          "average" : "55769.84615384615",
+          "largest" : "626835",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1570"
+          }, {
+            "count" : 19,
+            "item" : "626835"
+          }, {
+            "count" : 18,
+            "item" : "2437"
+          }, {
+            "count" : 17,
+            "item" : "2443"
+          }, {
+            "count" : 16,
+            "item" : "2509"
+          }, {
+            "count" : 15,
+            "item" : "2604"
+          }, {
+            "count" : 14,
+            "item" : "3855"
+          }, {
+            "count" : 13,
+            "item" : "4037"
+          }, {
+            "count" : 12,
+            "item" : "2768"
+          }, {
+            "count" : 11,
+            "item" : "2752"
+          }, {
+            "count" : 10,
+            "item" : "5871"
+          }, {
+            "count" : 9,
+            "item" : "4378"
+          }, {
+            "count" : 8,
+            "item" : "6852"
+          }, {
+            "count" : 7,
+            "item" : "287005"
+          }, {
+            "count" : 6,
+            "item" : "8796"
+          }, {
+            "count" : 5,
+            "item" : "9048"
+          }, {
+            "count" : 4,
+            "item" : "603103"
+          }, {
+            "count" : 3,
+            "item" : "10088"
+          }, {
+            "count" : 2,
+            "item" : "286973"
+          }, {
+            "count" : 1,
+            "item" : "14706"
+          } ]
+        },
+        "format" : {
+          "precisionStyle" : "standard",
+          "align" : "right",
+          "noCommas" : "true"
+        }
+      }, {
+        "id" : 252327694,
+        "name" : "LOCATION",
+        "dataTypeName" : "text",
+        "fieldName" : "location",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 35871168,
+        "width" : 196,
+        "cachedContents" : {
+          "non_null" : 52,
+          "smallest" : "12th Ave NE n/o NE 50th St",
+          "null" : 0,
+          "largest" : "Western Ave s/o Madison St SB",
+          "top" : [ {
+            "count" : 20,
+            "item" : "NW 83rd St w/o 8th Ave NW"
+          }, {
+            "count" : 19,
+            "item" : "S Henderson w/o 50th Ave S WB"
+          }, {
+            "count" : 18,
+            "item" : "S Jackson Btwn 23rd and 25th EB"
+          }, {
+            "count" : 17,
+            "item" : "S Jackson Btwn 23rd and 25th WB"
+          }, {
+            "count" : 16,
+            "item" : "S LK Wash Blvd n/o S Horton"
+          }, {
+            "count" : 15,
+            "item" : "SODO trail at S Massachusetts St"
+          }, {
+            "count" : 14,
+            "item" : "University Br s/o Point A (Eastside)"
+          }, {
+            "count" : 13,
+            "item" : "University Br s/o Point A (Westside)"
+          }, {
+            "count" : 12,
+            "item" : "W Boston St e/o 1st Ave W"
+          }, {
+            "count" : 11,
+            "item" : "Western Ave s/o Madison St NB"
+          }, {
+            "count" : 10,
+            "item" : "Western Ave s/o Madison St SB"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327695,
+        "name" : "Full Count Start",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "full_count_start",
+        "position" : 4,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 35871169,
+        "width" : 292,
+        "cachedContents" : {
+          "non_null" : 52,
+          "smallest" : "2014-04-26T00:00:00",
+          "null" : 0,
+          "largest" : "2014-12-25T00:00:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2014-10-25T00:00:00"
+          }, {
+            "count" : 19,
+            "item" : "2014-12-16T00:00:00"
+          }, {
+            "count" : 18,
+            "item" : "2014-07-02T00:00:00"
+          }, {
+            "count" : 17,
+            "item" : "2014-08-08T00:00:00"
+          }, {
+            "count" : 16,
+            "item" : "2014-10-11T00:00:00"
+          }, {
+            "count" : 15,
+            "item" : "2014-07-19T00:00:00"
+          }, {
+            "count" : 14,
+            "item" : "2014-07-29T00:00:00"
+          }, {
+            "count" : 13,
+            "item" : "2014-09-11T00:00:00"
+          }, {
+            "count" : 12,
+            "item" : "2014-04-26T00:00:00"
+          }, {
+            "count" : 11,
+            "item" : "2014-09-13T00:00:00"
+          }, {
+            "count" : 10,
+            "item" : "2014-07-01T00:00:00"
+          }, {
+            "count" : 9,
+            "item" : "2014-06-21T00:00:00"
+          }, {
+            "count" : 8,
+            "item" : "2014-11-08T00:00:00"
+          }, {
+            "count" : 7,
+            "item" : "2014-06-07T00:00:00"
+          }, {
+            "count" : 6,
+            "item" : "2014-07-03T00:00:00"
+          }, {
+            "count" : 5,
+            "item" : "2014-11-22T00:00:00"
+          }, {
+            "count" : 4,
+            "item" : "2014-08-16T00:00:00"
+          }, {
+            "count" : 3,
+            "item" : "2014-12-18T00:00:00"
+          }, {
+            "count" : 2,
+            "item" : "2014-11-26T00:00:00"
+          }, {
+            "count" : 1,
+            "item" : "2014-12-25T00:00:00"
+          } ]
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 252327696,
+        "name" : "Full Count End",
+        "dataTypeName" : "calendar_date",
+        "fieldName" : "full_count_end",
+        "position" : 5,
+        "renderTypeName" : "calendar_date",
+        "tableColumnId" : 35871170,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 52,
+          "smallest" : "2014-05-05T00:00:00",
+          "null" : 0,
+          "largest" : "2015-12-30T00:00:00",
+          "top" : [ {
+            "count" : 20,
+            "item" : "2014-11-20T00:00:00"
+          }, {
+            "count" : 19,
+            "item" : "2014-12-30T00:00:00"
+          }, {
+            "count" : 18,
+            "item" : "2014-07-09T00:00:00"
+          }, {
+            "count" : 17,
+            "item" : "2014-11-13T00:00:00"
+          }, {
+            "count" : 16,
+            "item" : "2014-08-13T00:00:00"
+          }, {
+            "count" : 15,
+            "item" : "2014-07-24T00:00:00"
+          }, {
+            "count" : 14,
+            "item" : "2014-08-03T00:00:00"
+          }, {
+            "count" : 13,
+            "item" : "2014-10-02T00:00:00"
+          }, {
+            "count" : 12,
+            "item" : "2014-05-07T00:00:00"
+          }, {
+            "count" : 11,
+            "item" : "2014-10-09T00:00:00"
+          }, {
+            "count" : 10,
+            "item" : "2014-08-04T00:00:00"
+          }, {
+            "count" : 9,
+            "item" : "2014-07-06T00:00:00"
+          }, {
+            "count" : 8,
+            "item" : "2014-07-02T00:00:00"
+          }, {
+            "count" : 7,
+            "item" : "2014-07-08T00:00:00"
+          }, {
+            "count" : 6,
+            "item" : "2014-06-18T00:00:00"
+          }, {
+            "count" : 5,
+            "item" : "2014-11-17T00:00:00"
+          }, {
+            "count" : 4,
+            "item" : "2014-05-06T00:00:00"
+          }, {
+            "count" : 3,
+            "item" : "2014-08-24T00:00:00"
+          }, {
+            "count" : 2,
+            "item" : "2014-05-05T00:00:00"
+          }, {
+            "count" : 1,
+            "item" : "2015-12-30T00:00:00"
+          } ]
+        },
+        "format" : {
+          "view" : "date",
+          "align" : "left"
+        }
+      }, {
+        "id" : 252327697,
+        "name" : "Notes",
+        "dataTypeName" : "text",
+        "fieldName" : "notes",
+        "position" : 6,
+        "renderTypeName" : "text",
+        "tableColumnId" : 35871171,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "Closed Sept 24 onward",
+          "null" : 46,
+          "largest" : "Replaced by a PBL in Sept of 2014",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Hose up after Nov 14"
+          }, {
+            "count" : 19,
+            "item" : "Replaced by a PBL in Sept of 2014"
+          }, {
+            "count" : 18,
+            "item" : "Closed Sept 24 onward"
+          }, {
+            "count" : 17,
+            "item" : "Hose up after 5 days"
+          }, {
+            "count" : 16,
+            "item" : "Hose up first day"
+          }, {
+            "count" : 15,
+            "item" : "July 12 (9598 bikes) & 13 (2579 bikes) removed from count due to Seattle to Portland mass bike event."
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327698,
+        "name" : "Day 1",
+        "dataTypeName" : "number",
+        "fieldName" : "day_1",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871172,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 51,
+          "smallest" : "1",
+          "sum" : "14003",
+          "null" : 1,
+          "average" : "274.5686274509804",
+          "largest" : "1839",
+          "top" : [ {
+            "count" : 20,
+            "item" : "48"
+          }, {
+            "count" : 19,
+            "item" : "4"
+          }, {
+            "count" : 18,
+            "item" : "28"
+          }, {
+            "count" : 17,
+            "item" : "1129"
+          }, {
+            "count" : 16,
+            "item" : "42"
+          }, {
+            "count" : 15,
+            "item" : "626"
+          }, {
+            "count" : 14,
+            "item" : "506"
+          }, {
+            "count" : 13,
+            "item" : "47"
+          }, {
+            "count" : 12,
+            "item" : "184"
+          }, {
+            "count" : 11,
+            "item" : "238"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327699,
+        "name" : "Day 2",
+        "dataTypeName" : "number",
+        "fieldName" : "day_2",
+        "position" : 8,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871173,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 52,
+          "smallest" : "2",
+          "sum" : "13528",
+          "null" : 0,
+          "average" : "260.1538461538462",
+          "largest" : "2273",
+          "top" : [ {
+            "count" : 20,
+            "item" : "34"
+          }, {
+            "count" : 19,
+            "item" : "42"
+          }, {
+            "count" : 18,
+            "item" : "9"
+          }, {
+            "count" : 17,
+            "item" : "51"
+          }, {
+            "count" : 16,
+            "item" : "1004"
+          }, {
+            "count" : 15,
+            "item" : "29"
+          }, {
+            "count" : 14,
+            "item" : "625"
+          }, {
+            "count" : 13,
+            "item" : "558"
+          }, {
+            "count" : 12,
+            "item" : "43"
+          }, {
+            "count" : 11,
+            "item" : "184"
+          }, {
+            "count" : 10,
+            "item" : "353"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327700,
+        "name" : "Day 3",
+        "dataTypeName" : "number",
+        "fieldName" : "day_3",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871174,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 52,
+          "smallest" : "2",
+          "sum" : "18320",
+          "null" : 0,
+          "average" : "352.3076923076923",
+          "largest" : "3522",
+          "top" : [ {
+            "count" : 20,
+            "item" : "4"
+          }, {
+            "count" : 19,
+            "item" : "6"
+          }, {
+            "count" : 18,
+            "item" : "17"
+          }, {
+            "count" : 17,
+            "item" : "3522"
+          }, {
+            "count" : 16,
+            "item" : "72"
+          }, {
+            "count" : 15,
+            "item" : "1173"
+          }, {
+            "count" : 14,
+            "item" : "904"
+          }, {
+            "count" : 13,
+            "item" : "55"
+          }, {
+            "count" : 12,
+            "item" : "172"
+          }, {
+            "count" : 11,
+            "item" : "234"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327701,
+        "name" : "Day 4",
+        "dataTypeName" : "number",
+        "fieldName" : "day_4",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871175,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 51,
+          "smallest" : "1",
+          "sum" : "16074",
+          "null" : 1,
+          "average" : "315.1764705882353",
+          "largest" : "1576",
+          "top" : [ {
+            "count" : 20,
+            "item" : "120"
+          }, {
+            "count" : 19,
+            "item" : "10"
+          }, {
+            "count" : 18,
+            "item" : "49"
+          }, {
+            "count" : 17,
+            "item" : "3"
+          }, {
+            "count" : 16,
+            "item" : "784"
+          }, {
+            "count" : 15,
+            "item" : "1202"
+          }, {
+            "count" : 14,
+            "item" : "1068"
+          }, {
+            "count" : 13,
+            "item" : "30"
+          }, {
+            "count" : 12,
+            "item" : "145"
+          }, {
+            "count" : 11,
+            "item" : "184"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327702,
+        "name" : "Day 5",
+        "dataTypeName" : "number",
+        "fieldName" : "day_5",
+        "position" : 11,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871176,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 51,
+          "smallest" : "2",
+          "sum" : "16216",
+          "null" : 1,
+          "average" : "317.9607843137255",
+          "largest" : "1806",
+          "top" : [ {
+            "count" : 20,
+            "item" : "117"
+          }, {
+            "count" : 19,
+            "item" : "3"
+          }, {
+            "count" : 18,
+            "item" : "207"
+          }, {
+            "count" : 17,
+            "item" : "901"
+          }, {
+            "count" : 16,
+            "item" : "1060"
+          }, {
+            "count" : 15,
+            "item" : "1137"
+          }, {
+            "count" : 14,
+            "item" : "45"
+          }, {
+            "count" : 13,
+            "item" : "58"
+          }, {
+            "count" : 12,
+            "item" : "88"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327703,
+        "name" : "Day 6",
+        "dataTypeName" : "number",
+        "fieldName" : "day_6",
+        "position" : 12,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871177,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 47,
+          "smallest" : "4",
+          "sum" : "16193",
+          "null" : 5,
+          "average" : "344.5319148936170",
+          "largest" : "1941",
+          "top" : [ {
+            "count" : 20,
+            "item" : "959"
+          }, {
+            "count" : 19,
+            "item" : "1076"
+          }, {
+            "count" : 18,
+            "item" : "1028"
+          }, {
+            "count" : 17,
+            "item" : "48"
+          }, {
+            "count" : 16,
+            "item" : "56"
+          }, {
+            "count" : 15,
+            "item" : "69"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327704,
+        "name" : "Day 7",
+        "dataTypeName" : "number",
+        "fieldName" : "day_7",
+        "position" : 13,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871178,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 37,
+          "smallest" : "2",
+          "sum" : "12226",
+          "null" : 15,
+          "average" : "330.4324324324324",
+          "largest" : "1535",
+          "top" : [ {
+            "count" : 20,
+            "item" : "112"
+          }, {
+            "count" : 19,
+            "item" : "91"
+          }, {
+            "count" : 18,
+            "item" : "307"
+          }, {
+            "count" : 17,
+            "item" : "233"
+          }, {
+            "count" : 16,
+            "item" : "5"
+          }, {
+            "count" : 15,
+            "item" : "190"
+          }, {
+            "count" : 14,
+            "item" : "964"
+          }, {
+            "count" : 13,
+            "item" : "22"
+          }, {
+            "count" : 12,
+            "item" : "170"
+          }, {
+            "count" : 11,
+            "item" : "77"
+          }, {
+            "count" : 10,
+            "item" : "125"
+          }, {
+            "count" : 9,
+            "item" : "16"
+          }, {
+            "count" : 8,
+            "item" : "409"
+          }, {
+            "count" : 7,
+            "item" : "442"
+          }, {
+            "count" : 6,
+            "item" : "804"
+          }, {
+            "count" : 5,
+            "item" : "531"
+          }, {
+            "count" : 4,
+            "item" : "553"
+          }, {
+            "count" : 3,
+            "item" : "54"
+          }, {
+            "count" : 2,
+            "item" : "59"
+          }, {
+            "count" : 1,
+            "item" : "474"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327705,
+        "name" : "Day 8",
+        "dataTypeName" : "number",
+        "fieldName" : "day_8",
+        "position" : 14,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871179,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 29,
+          "smallest" : "0",
+          "sum" : "7032",
+          "null" : 23,
+          "average" : "242.4827586206897",
+          "largest" : "869",
+          "top" : [ {
+            "count" : 20,
+            "item" : "94"
+          }, {
+            "count" : 19,
+            "item" : "50"
+          }, {
+            "count" : 18,
+            "item" : "295"
+          }, {
+            "count" : 17,
+            "item" : "228"
+          }, {
+            "count" : 16,
+            "item" : "3"
+          }, {
+            "count" : 15,
+            "item" : "133"
+          }, {
+            "count" : 14,
+            "item" : "830"
+          }, {
+            "count" : 13,
+            "item" : "8"
+          }, {
+            "count" : 12,
+            "item" : "61"
+          }, {
+            "count" : 11,
+            "item" : "468"
+          }, {
+            "count" : 10,
+            "item" : "497"
+          }, {
+            "count" : 9,
+            "item" : "219"
+          }, {
+            "count" : 8,
+            "item" : "236"
+          }, {
+            "count" : 7,
+            "item" : "78"
+          }, {
+            "count" : 6,
+            "item" : "48"
+          }, {
+            "count" : 5,
+            "item" : "57"
+          }, {
+            "count" : 4,
+            "item" : "807"
+          }, {
+            "count" : 3,
+            "item" : "366"
+          }, {
+            "count" : 2,
+            "item" : "356"
+          }, {
+            "count" : 1,
+            "item" : "0"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327706,
+        "name" : "Day 9",
+        "dataTypeName" : "number",
+        "fieldName" : "day_9",
+        "position" : 15,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871180,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 25,
+          "smallest" : "1",
+          "sum" : "5372",
+          "null" : 27,
+          "average" : "214.88",
+          "largest" : "840",
+          "top" : [ {
+            "count" : 20,
+            "item" : "67"
+          }, {
+            "count" : 19,
+            "item" : "43"
+          }, {
+            "count" : 18,
+            "item" : "4"
+          }, {
+            "count" : 17,
+            "item" : "306"
+          }, {
+            "count" : 16,
+            "item" : "840"
+          }, {
+            "count" : 15,
+            "item" : "3"
+          }, {
+            "count" : 14,
+            "item" : "45"
+          }, {
+            "count" : 13,
+            "item" : "325"
+          }, {
+            "count" : 12,
+            "item" : "586"
+          }, {
+            "count" : 11,
+            "item" : "148"
+          }, {
+            "count" : 10,
+            "item" : "142"
+          }, {
+            "count" : 9,
+            "item" : "44"
+          }, {
+            "count" : 8,
+            "item" : "34"
+          }, {
+            "count" : 7,
+            "item" : "765"
+          }, {
+            "count" : 6,
+            "item" : "331"
+          }, {
+            "count" : 5,
+            "item" : "228"
+          }, {
+            "count" : 4,
+            "item" : "1"
+          }, {
+            "count" : 3,
+            "item" : "10"
+          }, {
+            "count" : 2,
+            "item" : "42"
+          }, {
+            "count" : 1,
+            "item" : "29"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327707,
+        "name" : "Day 10",
+        "dataTypeName" : "number",
+        "fieldName" : "day_10",
+        "position" : 16,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871181,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 19,
+          "smallest" : "3",
+          "sum" : "5238",
+          "null" : 33,
+          "average" : "275.6842105263158",
+          "largest" : "1107",
+          "top" : [ {
+            "count" : 20,
+            "item" : "101"
+          }, {
+            "count" : 19,
+            "item" : "27"
+          }, {
+            "count" : 18,
+            "item" : "3"
+          }, {
+            "count" : 17,
+            "item" : "240"
+          }, {
+            "count" : 16,
+            "item" : "291"
+          }, {
+            "count" : 15,
+            "item" : "5"
+          }, {
+            "count" : 14,
+            "item" : "182"
+          }, {
+            "count" : 13,
+            "item" : "356"
+          }, {
+            "count" : 12,
+            "item" : "958"
+          }, {
+            "count" : 11,
+            "item" : "763"
+          }, {
+            "count" : 10,
+            "item" : "782"
+          }, {
+            "count" : 9,
+            "item" : "83"
+          }, {
+            "count" : 8,
+            "item" : "50"
+          }, {
+            "count" : 7,
+            "item" : "171"
+          }, {
+            "count" : 6,
+            "item" : "1107"
+          }, {
+            "count" : 5,
+            "item" : "41"
+          }, {
+            "count" : 4,
+            "item" : "10"
+          }, {
+            "count" : 3,
+            "item" : "25"
+          }, {
+            "count" : 2,
+            "item" : "43"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327708,
+        "name" : "Day 11",
+        "dataTypeName" : "number",
+        "fieldName" : "day_11",
+        "position" : 17,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871182,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 18,
+          "smallest" : "2",
+          "sum" : "5232",
+          "null" : 34,
+          "average" : "290.6666666666667",
+          "largest" : "971",
+          "top" : [ {
+            "count" : 20,
+            "item" : "108"
+          }, {
+            "count" : 19,
+            "item" : "43"
+          }, {
+            "count" : 18,
+            "item" : "2"
+          }, {
+            "count" : 17,
+            "item" : "251"
+          }, {
+            "count" : 16,
+            "item" : "305"
+          }, {
+            "count" : 15,
+            "item" : "10"
+          }, {
+            "count" : 14,
+            "item" : "157"
+          }, {
+            "count" : 13,
+            "item" : "477"
+          }, {
+            "count" : 12,
+            "item" : "938"
+          }, {
+            "count" : 11,
+            "item" : "946"
+          }, {
+            "count" : 10,
+            "item" : "971"
+          }, {
+            "count" : 9,
+            "item" : "77"
+          }, {
+            "count" : 8,
+            "item" : "223"
+          }, {
+            "count" : 7,
+            "item" : "36"
+          }, {
+            "count" : 6,
+            "item" : "19"
+          }, {
+            "count" : 5,
+            "item" : "6"
+          }, {
+            "count" : 4,
+            "item" : "13"
+          }, {
+            "count" : 3,
+            "item" : "650"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327709,
+        "name" : "Day 12",
+        "dataTypeName" : "number",
+        "fieldName" : "day_12",
+        "position" : 18,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871183,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 18,
+          "smallest" : "5",
+          "sum" : "5928",
+          "null" : 34,
+          "average" : "329.3333333333333",
+          "largest" : "1092",
+          "top" : [ {
+            "count" : 20,
+            "item" : "111"
+          }, {
+            "count" : 19,
+            "item" : "35"
+          }, {
+            "count" : 18,
+            "item" : "6"
+          }, {
+            "count" : 17,
+            "item" : "162"
+          }, {
+            "count" : 16,
+            "item" : "768"
+          }, {
+            "count" : 15,
+            "item" : "13"
+          }, {
+            "count" : 14,
+            "item" : "163"
+          }, {
+            "count" : 13,
+            "item" : "283"
+          }, {
+            "count" : 12,
+            "item" : "950"
+          }, {
+            "count" : 11,
+            "item" : "1010"
+          }, {
+            "count" : 10,
+            "item" : "1092"
+          }, {
+            "count" : 9,
+            "item" : "75"
+          }, {
+            "count" : 8,
+            "item" : "213"
+          }, {
+            "count" : 7,
+            "item" : "56"
+          }, {
+            "count" : 6,
+            "item" : "26"
+          }, {
+            "count" : 5,
+            "item" : "5"
+          }, {
+            "count" : 4,
+            "item" : "14"
+          }, {
+            "count" : 3,
+            "item" : "946"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327710,
+        "name" : "Day 13",
+        "dataTypeName" : "number",
+        "fieldName" : "day_13",
+        "position" : 19,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871184,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 13,
+          "smallest" : "2",
+          "sum" : "2711",
+          "null" : 39,
+          "average" : "208.5384615384615",
+          "largest" : "899",
+          "top" : [ {
+            "count" : 20,
+            "item" : "123"
+          }, {
+            "count" : 19,
+            "item" : "30"
+          }, {
+            "count" : 18,
+            "item" : "2"
+          }, {
+            "count" : 17,
+            "item" : "180"
+          }, {
+            "count" : 16,
+            "item" : "202"
+          }, {
+            "count" : 15,
+            "item" : "899"
+          }, {
+            "count" : 14,
+            "item" : "69"
+          }, {
+            "count" : 13,
+            "item" : "217"
+          }, {
+            "count" : 12,
+            "item" : "46"
+          }, {
+            "count" : 11,
+            "item" : "23"
+          }, {
+            "count" : 10,
+            "item" : "36"
+          }, {
+            "count" : 9,
+            "item" : "47"
+          }, {
+            "count" : 8,
+            "item" : "837"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327711,
+        "name" : "Day 14",
+        "dataTypeName" : "number",
+        "fieldName" : "day_14",
+        "position" : 20,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871185,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 11,
+          "smallest" : "6",
+          "sum" : "1991",
+          "null" : 41,
+          "average" : "181",
+          "largest" : "976",
+          "top" : [ {
+            "count" : 20,
+            "item" : "108"
+          }, {
+            "count" : 19,
+            "item" : "84"
+          }, {
+            "count" : 18,
+            "item" : "6"
+          }, {
+            "count" : 17,
+            "item" : "228"
+          }, {
+            "count" : 16,
+            "item" : "176"
+          }, {
+            "count" : 15,
+            "item" : "103"
+          }, {
+            "count" : 14,
+            "item" : "200"
+          }, {
+            "count" : 13,
+            "item" : "53"
+          }, {
+            "count" : 12,
+            "item" : "28"
+          }, {
+            "count" : 11,
+            "item" : "29"
+          }, {
+            "count" : 10,
+            "item" : "976"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327712,
+        "name" : "Day 15",
+        "dataTypeName" : "number",
+        "fieldName" : "day_15",
+        "position" : 21,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871186,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 11,
+          "smallest" : "7",
+          "sum" : "1402",
+          "null" : 41,
+          "average" : "127.4545454545455",
+          "largest" : "825",
+          "top" : [ {
+            "count" : 20,
+            "item" : "79"
+          }, {
+            "count" : 19,
+            "item" : "74"
+          }, {
+            "count" : 18,
+            "item" : "7"
+          }, {
+            "count" : 17,
+            "item" : "80"
+          }, {
+            "count" : 16,
+            "item" : "46"
+          }, {
+            "count" : 15,
+            "item" : "64"
+          }, {
+            "count" : 14,
+            "item" : "138"
+          }, {
+            "count" : 13,
+            "item" : "35"
+          }, {
+            "count" : 12,
+            "item" : "25"
+          }, {
+            "count" : 11,
+            "item" : "29"
+          }, {
+            "count" : 10,
+            "item" : "825"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327713,
+        "name" : "Day 16",
+        "dataTypeName" : "number",
+        "fieldName" : "day_16",
+        "position" : 22,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871187,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 10,
+          "smallest" : "0",
+          "sum" : "1547",
+          "null" : 42,
+          "average" : "154.7",
+          "largest" : "1094",
+          "top" : [ {
+            "count" : 20,
+            "item" : "43"
+          }, {
+            "count" : 19,
+            "item" : "0"
+          }, {
+            "count" : 18,
+            "item" : "108"
+          }, {
+            "count" : 17,
+            "item" : "65"
+          }, {
+            "count" : 16,
+            "item" : "25"
+          }, {
+            "count" : 15,
+            "item" : "121"
+          }, {
+            "count" : 14,
+            "item" : "33"
+          }, {
+            "count" : 13,
+            "item" : "31"
+          }, {
+            "count" : 12,
+            "item" : "27"
+          }, {
+            "count" : 11,
+            "item" : "1094"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327714,
+        "name" : "Day 17",
+        "dataTypeName" : "number",
+        "fieldName" : "day_17",
+        "position" : 23,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871188,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 7,
+          "smallest" : "2",
+          "sum" : "1434",
+          "null" : 45,
+          "average" : "204.8571428571429",
+          "largest" : "593",
+          "top" : [ {
+            "count" : 20,
+            "item" : "123"
+          }, {
+            "count" : 19,
+            "item" : "2"
+          }, {
+            "count" : 18,
+            "item" : "237"
+          }, {
+            "count" : 17,
+            "item" : "175"
+          }, {
+            "count" : 16,
+            "item" : "81"
+          }, {
+            "count" : 15,
+            "item" : "223"
+          }, {
+            "count" : 14,
+            "item" : "593"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327722,
+        "name" : "Day 18",
+        "dataTypeName" : "number",
+        "fieldName" : "day_18",
+        "position" : 24,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871196,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "5",
+          "sum" : "822",
+          "null" : 46,
+          "average" : "137",
+          "largest" : "248",
+          "top" : [ {
+            "count" : 20,
+            "item" : "105"
+          }, {
+            "count" : 19,
+            "item" : "5"
+          }, {
+            "count" : 18,
+            "item" : "167"
+          }, {
+            "count" : 17,
+            "item" : "248"
+          }, {
+            "count" : 16,
+            "item" : "100"
+          }, {
+            "count" : 15,
+            "item" : "197"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327723,
+        "name" : "Day 19",
+        "dataTypeName" : "number",
+        "fieldName" : "day_19",
+        "position" : 25,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871197,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "6",
+          "sum" : "879",
+          "null" : 46,
+          "average" : "146.5",
+          "largest" : "250",
+          "top" : [ {
+            "count" : 20,
+            "item" : "116"
+          }, {
+            "count" : 19,
+            "item" : "6"
+          }, {
+            "count" : 18,
+            "item" : "249"
+          }, {
+            "count" : 17,
+            "item" : "250"
+          }, {
+            "count" : 16,
+            "item" : "71"
+          }, {
+            "count" : 15,
+            "item" : "187"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327724,
+        "name" : "Day 20",
+        "dataTypeName" : "number",
+        "fieldName" : "day_20",
+        "position" : 26,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871198,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 6,
+          "smallest" : "2",
+          "sum" : "806",
+          "null" : 46,
+          "average" : "134.3333333333333",
+          "largest" : "245",
+          "top" : [ {
+            "count" : 20,
+            "item" : "136"
+          }, {
+            "count" : 19,
+            "item" : "2"
+          }, {
+            "count" : 18,
+            "item" : "178"
+          }, {
+            "count" : 17,
+            "item" : "245"
+          }, {
+            "count" : 16,
+            "item" : "64"
+          }, {
+            "count" : 15,
+            "item" : "181"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327725,
+        "name" : "Day 21",
+        "dataTypeName" : "number",
+        "fieldName" : "day_21",
+        "position" : 27,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871199,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 3,
+          "smallest" : "124",
+          "sum" : "541",
+          "null" : 49,
+          "average" : "180.3333333333333",
+          "largest" : "246",
+          "top" : [ {
+            "count" : 20,
+            "item" : "124"
+          }, {
+            "count" : 19,
+            "item" : "171"
+          }, {
+            "count" : 18,
+            "item" : "246"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327726,
+        "name" : "Day 22",
+        "dataTypeName" : "number",
+        "fieldName" : "day_22",
+        "position" : 28,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871200,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 3,
+          "smallest" : "64",
+          "sum" : "430",
+          "null" : 49,
+          "average" : "143.3333333333333",
+          "largest" : "190",
+          "top" : [ {
+            "count" : 20,
+            "item" : "190"
+          }, {
+            "count" : 19,
+            "item" : "64"
+          }, {
+            "count" : 18,
+            "item" : "176"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327727,
+        "name" : "Day 23",
+        "dataTypeName" : "number",
+        "fieldName" : "day_23",
+        "position" : 29,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871201,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 3,
+          "smallest" : "48",
+          "sum" : "272",
+          "null" : 49,
+          "average" : "90.66666666666667",
+          "largest" : "115",
+          "top" : [ {
+            "count" : 20,
+            "item" : "109"
+          }, {
+            "count" : 19,
+            "item" : "48"
+          }, {
+            "count" : 18,
+            "item" : "115"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327728,
+        "name" : "Day 24",
+        "dataTypeName" : "number",
+        "fieldName" : "day_24",
+        "position" : 30,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871202,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 3,
+          "smallest" : "190",
+          "sum" : "610",
+          "null" : 49,
+          "average" : "203.3333333333333",
+          "largest" : "225",
+          "top" : [ {
+            "count" : 20,
+            "item" : "195"
+          }, {
+            "count" : 19,
+            "item" : "190"
+          }, {
+            "count" : 18,
+            "item" : "225"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327729,
+        "name" : "Day 25",
+        "dataTypeName" : "number",
+        "fieldName" : "day_25",
+        "position" : 31,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871203,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 3,
+          "smallest" : "115",
+          "sum" : "596",
+          "null" : 49,
+          "average" : "198.6666666666667",
+          "largest" : "243",
+          "top" : [ {
+            "count" : 20,
+            "item" : "238"
+          }, {
+            "count" : 19,
+            "item" : "115"
+          }, {
+            "count" : 18,
+            "item" : "243"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327730,
+        "name" : "Day 26",
+        "dataTypeName" : "number",
+        "fieldName" : "day_26",
+        "position" : 32,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871204,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 2,
+          "smallest" : "204",
+          "sum" : "463",
+          "null" : 50,
+          "average" : "231.5",
+          "largest" : "259",
+          "top" : [ {
+            "count" : 20,
+            "item" : "204"
+          }, {
+            "count" : 19,
+            "item" : "259"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327731,
+        "name" : "Day 27",
+        "dataTypeName" : "number",
+        "fieldName" : "day_27",
+        "position" : 33,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871205,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 2,
+          "smallest" : "183",
+          "sum" : "394",
+          "null" : 50,
+          "average" : "197",
+          "largest" : "211",
+          "top" : [ {
+            "count" : 20,
+            "item" : "211"
+          }, {
+            "count" : 19,
+            "item" : "183"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327732,
+        "name" : "Day 28",
+        "dataTypeName" : "number",
+        "fieldName" : "day_28",
+        "position" : 34,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871206,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 2,
+          "smallest" : "210",
+          "sum" : "491",
+          "null" : 50,
+          "average" : "245.5",
+          "largest" : "281",
+          "top" : [ {
+            "count" : 20,
+            "item" : "281"
+          }, {
+            "count" : 19,
+            "item" : "210"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327733,
+        "name" : "Day 29",
+        "dataTypeName" : "number",
+        "fieldName" : "day_29",
+        "position" : 35,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871207,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 2,
+          "smallest" : "60",
+          "sum" : "298",
+          "null" : 50,
+          "average" : "149",
+          "largest" : "238",
+          "top" : [ {
+            "count" : 20,
+            "item" : "238"
+          }, {
+            "count" : 19,
+            "item" : "60"
+          } ]
+        },
+        "format" : { }
+      }, {
+        "id" : 252327734,
+        "name" : "Day 30",
+        "dataTypeName" : "number",
+        "fieldName" : "day_30",
+        "position" : 36,
+        "renderTypeName" : "number",
+        "tableColumnId" : 35871208,
+        "width" : 172,
+        "cachedContents" : {
+          "non_null" : 2,
+          "smallest" : "70",
+          "sum" : "155",
+          "null" : 50,
+          "average" : "77.5",
+          "largest" : "85",
+          "top" : [ {
+            "count" : 20,
+            "item" : "70"
+          }, {
+            "count" : 19,
+            "item" : "85"
+          } ]
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Public Domain"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Refresh Frequency" : {
+            "Frequency" : "Never"
+          },
+          "Data Owner" : {
+            "Owner" : "Department of Transportation"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "rowLabel" : "Row",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "pf4e-vhvy",
+        "displayName" : "Conor, Jeffrey",
+        "roleName" : "publisher",
+        "screenName" : "Conor, Jeffrey",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "pf4e-vhvy",
+        "displayName" : "Conor, Jeffrey",
+        "roleName" : "publisher",
+        "screenName" : "Conor, Jeffrey",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_nominations", "approve_nominations", "moderate_comments", "manage_stories", "feature_items", "change_configurations", "view_domain", "view_others_datasets", "create_pages", "edit_pages", "view_goals", "view_dashboards", "edit_goals", "edit_dashboards", "manage_provenance", "view_story", "view_unpublished_story", "view_all_dataset_status_logs" ]
+      },
+      "tags" : [ "seattle", "bike", "counts", "sdot", "bicycle" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "42432686-0D7E-43BF-95B5-3B4119C65C99", 1, 1461621184, "954404", 1461621184, "954404", null, "1570", "12th Ave NE n/o NE 50th St", "2014-10-25T00:00:00", "2014-11-20T00:00:00", "Hose up after Nov 14", "64", "59", "114", "120", "117", "124", "112", "94", "67", "101", "108", "111", "123", "108", "79", "43", "123", "105", "116", "136", null, null, null, null, null, null, null, null, null, null ]
+, [ 2, "572E073A-3432-4A09-B30D-7CA0F7D87A6D", 2, 1461621184, "954404", 1461621184, "954404", null, "626835", "12th Ave S s/o S Weller St NB", "2014-12-16T00:00:00", "2014-12-30T00:00:00", null, "113", "101", "80", "72", "43", "42", "91", "50", "43", "27", "43", "35", "30", "84", "74", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 3, "EF01ACF6-F5C8-498C-BBD8-95D1FC41F9F3", 3, 1461621184, "954404", 1461621184, "954404", null, "2437", "17th Ave NW n/o nw 53rd", "2014-07-02T00:00:00", "2014-07-09T00:00:00", null, "281", "199", "115", "100", "140", "242", "307", "295", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 4, "4D6B150B-6745-4008-9C29-6FB6CD7DBDAD", 4, 1461621184, "954404", 1461621184, "954404", null, "2443", "17th Ave NW n/o nw 58th", "2014-07-02T00:00:00", "2014-07-09T00:00:00", null, "232", "186", "100", "93", "135", "197", "233", "228", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 5, "4E8A56B8-63BA-4676-9745-BADF4F149E4D", 5, 1461621184, "954404", 1461621184, "954404", null, "2509", "17th Ave SW n/o SW Henderson", "2014-10-25T00:00:00", "2014-11-13T00:00:00", null, "1", "2", "4", "1", "3", "5", "5", "3", "4", "3", "2", "6", "2", "6", "7", "0", "2", "5", "6", "2", null, null, null, null, null, null, null, null, null, null ]
+, [ 6, "65910D8A-3695-474C-8E06-F51AD5F464C6", 6, 1461621184, "954404", 1461621184, "954404", null, "2604", "18th Ave S n/o S Bayview St", "2014-08-08T00:00:00", "2014-08-13T00:00:00", null, "53", "34", "40", "57", "72", "47", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 7, "6FFCCF12-D732-4DE2-8D04-1B85CD0CB7D2", 7, 1461621184, "954404", 1461621184, "954404", null, "3855", "26th Ave E n/o Boyer Ave E", "2014-10-11T00:00:00", "2014-11-13T00:00:00", null, "141", "198", "297", "266", "206", "348", "190", "133", "306", "240", "251", "162", "180", "228", "80", "108", "237", "167", "249", "178", "124", "190", "109", "195", "238", "204", "211", "281", "238", "70" ]
+, [ 8, "12E518B1-95A0-4387-A859-D31857D93ED0", 8, 1461621184, "954404", 1461621184, "954404", null, "4037", "27th Ave NE n/o n130th St", "2014-07-19T00:00:00", "2014-07-24T00:00:00", null, "35", "15", "70", "67", "38", "52", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 9, "1F9E585D-B8F6-4920-A3C6-95563CDFF43E", 9, 1461621184, "954404", 1461621184, "954404", null, "2768", "2nd Ave and Cedar", "2014-07-19T00:00:00", "2014-07-24T00:00:00", null, "48", "39", "126", "120", "63", "85", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 10, "B1003623-B3CB-475E-8A82-E609B722956E", 10, 1461621184, "954404", 1461621184, "954404", null, "2752", "2nd Ave bike lane", "2014-07-29T00:00:00", "2014-08-03T00:00:00", "Replaced by a PBL in Sept of 2014", "413", "446", "379", "386", "120", "113", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 11, "CBA54C32-6894-4C44-BC7C-786A4940A439", 11, 1461621184, "954404", 1461621184, "954404", null, "2752", "2nd Ave Cycle Track", "2014-09-11T00:00:00", "2014-10-02T00:00:00", "Closed Sept 24 onward", "1031", "1098", "429", "341", "981", "991", "964", "830", "840", "291", "305", "768", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 12, "CF8D0A38-B516-43B3-9DE2-8B9EE3EE75B9", 12, 1461621184, "954404", 1461621184, "954404", null, "5871", "38th ave NE n/o NE 80th st", "2014-04-26T00:00:00", "2014-05-07T00:00:00", null, "8", "3", "6", "10", "18", "10", "22", "8", "3", "5", "10", "13", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 13, "2C5815AF-0434-477D-A4AA-F5BC56B5CA38", 13, 1461621184, "954404", 1461621184, "954404", null, "4378", "3rd Ave s/o Madison NB", "2014-09-13T00:00:00", "2014-10-09T00:00:00", null, "56", "42", "195", "198", "207", "175", "170", "61", "45", "182", "157", "163", "202", "176", "46", "65", "175", "248", "250", "245", "171", "64", "48", "190", "115", null, null, null, null, null ]
+, [ 14, "53649240-EC2C-4067-BB5E-252BA66E8FB4", 14, 1461621184, "954404", 1461621184, "954404", null, "4378", "3rd Ave s/o Madison SB", "2014-07-29T00:00:00", "2014-08-04T00:00:00", null, "256", "246", "245", "237", "99", "67", "77", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 15, "EC569FE2-16FE-4B02-AC99-9EAE9841DB58", 15, 1461621184, "954404", 1461621184, "954404", null, "6852", "45th Ave SW n/o SW Dakota SB", "2014-07-01T00:00:00", "2014-07-06T00:00:00", null, "4", "7", "4", "11", "2", "12", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 16, "3A56CBAD-6C3C-46CC-AAB7-1D2727360360", 16, 1461621184, "954404", 1461621184, "954404", null, "287005", "Alki Multiuse Trail", "2014-06-21T00:00:00", "2014-07-02T00:00:00", null, "632", "709", "249", "267", "298", "172", "125", "468", "325", "356", "477", "283", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 17, "7C6D0CB2-2870-41D7-AB74-5B9BA03D8DCB", 17, 1461621184, "954404", 1461621184, "954404", null, "8796", "Alki w/o 59th Ave SW", "2014-06-21T00:00:00", "2014-07-02T00:00:00", null, "1839", "2273", "489", "54", "189", "149", "16", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 18, "74C4CB2E-0149-4C5D-A811-80A4853773A7", 18, 1461621184, "954404", 1461621184, "954404", null, "9048", "Ballard Bridge east pathway", "2014-07-02T00:00:00", "2014-07-08T00:00:00", null, "348", "308", "186", "153", "207", "321", "409", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 19, "852C0C63-C1EB-4D49-8AD6-956C7520CFE7", 19, 1461621184, "954404", 1461621184, "954404", null, "9048", "Ballard Bridge west pathway", "2014-07-02T00:00:00", "2014-07-08T00:00:00", null, "405", "338", "217", "190", "274", "367", "442", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 20, "272DA60E-F732-4D40-9C3A-AB8148CA52E8", 20, 1461621184, "954404", 1461621184, "954404", null, "603103", "BGT e/o 9th Ave NW", "2014-11-08T00:00:00", "2014-11-20T00:00:00", null, "1007", "368", "1129", "1008", "1011", "852", "804", "497", "586", "958", "938", "950", "899", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 21, "EEFC3D8A-E6F6-459B-97F1-BE2B861F55F6", 21, 1461621185, "954404", 1461621185, "954404", null, "10088", "Dexter at Howe NB", "2014-06-07T00:00:00", "2014-06-18T00:00:00", null, "313", "260", "932", "1035", "1113", "913", "531", "219", "148", "763", "946", "1010", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 22, "61E15010-834D-442E-B0D3-4F2FA34218F7", 22, 1461621185, "954404", 1461621185, "954404", null, "10088", "Dexter at Howe SB", "2014-06-07T00:00:00", "2014-06-18T00:00:00", null, "350", "255", "990", "1092", "1156", "985", "553", "236", "142", "782", "971", "1092", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 23, "BB9E361B-4263-4F56-B6C0-4600FD081F4D", 23, 1461621185, "954404", 1461621185, "954404", null, "286973", "Duwamish Trail s/o Holden St", "2014-10-25T00:00:00", "2014-11-13T00:00:00", null, "26", "50", "84", "49", "117", "61", "54", "78", "44", "83", "77", "75", "69", "103", "64", "25", "81", "100", "71", "64", null, null, null, null, null, null, null, null, null, null ]
+, [ 24, "80A24DD6-E4E1-4A23-9C11-6A4A84F38D0C", 24, 1461621185, "954404", 1461621185, "954404", null, "14706", "E Republican St w/o 16th Ave E", "2014-11-08T00:00:00", "2014-11-17T00:00:00", null, "60", "38", "82", "75", "73", "58", "59", "48", "34", "50", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 25, "4B99076B-6597-4969-A233-178F38E6BC04", 25, 1461621185, "954404", 1461621185, "954404", null, "10634", "Gilman Ave W NB n/o W Bertona", "2014-07-03T00:00:00", "2014-07-09T00:00:00", null, "376", "328", "261", "433", "441", "604", "474", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 26, "EFD71D35-AB7F-44EC-847E-A6CA38109D34", 26, 1461621185, "954404", 1461621185, "954404", null, "10634", "Gilman Ave W SB n/o W Bertona", "2014-07-03T00:00:00", "2014-07-09T00:00:00", null, "357", "300", "243", "390", "374", "469", "423", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 27, "DB625E64-771A-4F32-808C-0424FF63E9AA", 27, 1461621185, "954404", 1461621185, "954404", null, "10876", "Haiwatha Pl btw Bush st and Charles St - 1 direction", "2014-04-26T00:00:00", "2014-05-06T00:00:00", "Hose up after 5 days", "149", "84", "398", "303", "546", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 28, "A4E693A5-6D63-42C1-AF78-F04F5D0D02DF", 28, 1461621185, "954404", 1461621185, "954404", null, "11138", "Lafayette Ave S n/o S Spokane St", "2014-08-08T00:00:00", "2014-08-13T00:00:00", null, "23", "76", "128", "66", "62", "63", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 29, "7D61FD50-6356-4243-8A08-1650ABF336C7", 29, 1461621185, "954404", 1461621185, "954404", null, "11768", "Mercer St and Aurora ave N South Sidewalk", "2014-11-22T00:00:00", "2014-12-30T00:00:00", null, "153", "98", "233", "200", "232", "50", "44", "57", "148", "171", "223", "213", "217", "200", "138", "121", "223", "197", "187", "181", "246", "176", "115", "225", "243", "259", "183", "210", "60", "85" ]
+, [ 30, "A214E35A-42E2-4873-943D-14DBB39B69E8", 30, 1461621185, "954404", 1461621185, "954404", null, "11903", "Mountlake Br n/o Point A (Eastside)", "2014-08-16T00:00:00", "2014-08-24T00:00:00", null, "831", "815", "838", "888", "754", "802", "669", "807", "765", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 31, "64F41215-12F3-40CD-994C-C2F6E440D317", 31, 1461621185, "954404", 1461621185, "954404", null, "11903", "Mountlake Br n/o Point A (Westside)", "2014-08-16T00:00:00", "2014-08-24T00:00:00", null, "372", "387", "737", "802", "671", "699", "597", "366", "331", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 32, "16571ED0-864F-4938-AD59-C6AC73717CF2", 32, 1461621185, "954404", 1461621185, "954404", null, "15285", "N 34th St w/o Fremont Ave N", "2014-04-26T00:00:00", "2014-05-05T00:00:00", null, "650", "409", "1384", "1576", "1806", "1941", "1535", "356", "228", "1107", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 33, "7F90AF87-395F-47AF-9A1B-BFB0FCC6E166", 33, 1461621185, "954404", 1461621185, "954404", null, "15499", "N 43rd St w/o Wallingford Ave N", "2014-07-19T00:00:00", "2014-07-24T00:00:00", null, "29", "18", "54", "49", "20", "32", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 34, "E5988F82-D964-4C80-BB38-42B045DF216E", 34, 1461621185, "954404", 1461621185, "954404", null, "16482", "NE 125th St  e/o 12th Ave NE (WB)", "2014-12-18T00:00:00", "2014-12-30T00:00:00", null, "3", "9", "6", "3", "7", "4", "2", "0", "1", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 35, "476B8769-2874-4E4D-96D2-3F5CEB80480C", 35, 1461621185, "954404", 1461621185, "954404", null, "16482", "NE 125th St e/o 12th Ave NE (EB)", "2014-12-18T00:00:00", "2015-12-30T00:00:00", null, "39", "42", "13", "10", "36", "34", "16", "5", "10", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 36, "81E59B2E-DAD1-4953-9FCA-333579E1CD4E", 36, 1461621185, "954404", 1461621185, "954404", null, "16734", "NE 40th st e/o Brooklyn Ave NE", "2014-07-19T00:00:00", "2014-07-24T00:00:00", "Hose up first day", null, "527", "821", "1415", "766", "1222", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 37, "6B7B4759-1D24-4004-BB6B-D856C43F5119", 37, 1461621185, "954404", 1461621185, "954404", null, "18929", "NW 83rd St w/o 8th Ave NW", "2014-11-26T00:00:00", "2014-12-11T00:00:00", null, "48", "19", "17", "18", "23", "41", "46", "46", "42", "41", "36", "56", "46", "53", "35", "33", null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 38, "F78A624F-1A7C-463A-98ED-67CF0CBC0655", 38, 1461621185, "954404", 1461621185, "954404", null, "18929", "NW 83rd St w/o 8th Ave NW", "2014-12-18T00:00:00", "2014-12-30T00:00:00", null, "34", "34", "17", "48", "46", "35", "25", "21", "29", "10", "19", "26", "23", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 39, "3FAF02A5-1719-444E-B7B4-B2375B5E8B16", 39, 1461621185, "954404", 1461621185, "954404", null, "12205", "Pike St w/o Terry Ave EB", "2014-11-08T00:00:00", "2014-11-13T00:00:00", null, "272", "126", "248", "274", "305", "410", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 40, "A037037F-A79B-483D-8A94-76299BCA5D9E", 40, 1461621185, "954404", 1461621185, "954404", null, "12205", "Pike St w/o Terry Ave WB", "2014-11-08T00:00:00", "2014-11-13T00:00:00", null, "80", "51", "111", "112", "109", "109", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 41, "C1F5308B-EED6-4670-9269-915937195659", 41, 1461621185, "954404", 1461621185, "954404", null, "12505", "Renton Ave S s/o S Bennett St", "2014-12-25T00:00:00", "2014-12-29T00:00:00", null, "4", "6", "2", "3", "3", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 42, "4D5B395D-0B29-4117-96F7-28ED7CA10504", 42, 1461621185, "954404", 1461621185, "954404", null, "20243", "S Henderson w/o 50th Ave S EB", "2014-11-26T00:00:00", "2014-12-11T00:00:00", null, "16", "9", "11", "5", "3", "28", "35", "28", "36", "25", "6", "5", "36", "28", "25", "31", null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 43, "BCEE38CE-DA44-4418-AEAE-77CBB03CA315", 43, 1461621185, "954404", 1461621185, "954404", null, "20243", "S Henderson w/o 50th Ave S WB", "2014-11-26T00:00:00", "2014-12-11T00:00:00", null, "20", "5", "17", "7", "6", "26", "39", "31", "33", "43", "13", "14", "47", "29", "29", "27", null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 44, "D155ECE2-6D82-4C2F-B979-5BD4B3FC4075", 44, 1461621185, "954404", 1461621185, "954404", null, "20502", "S Jackson Btwn 23rd and 25th EB", "2014-12-25T00:00:00", "2014-12-29T00:00:00", null, "31", "64", "46", "27", "10", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 45, "A3A85432-E01D-497F-BACB-1E2DBB83FE9A", 45, 1461621185, "954404", 1461621185, "954404", null, "20502", "S Jackson Btwn 23rd and 25th WB", "2014-12-25T00:00:00", "2014-12-29T00:00:00", null, "28", "51", "41", "30", "25", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 46, "E2DF2B5C-F2BE-4EBF-A050-C8E8FAF3BE97", 46, 1461621185, "954404", 1461621185, "954404", null, "11230", "S LK Wash Blvd n/o S Horton", "2014-07-04T00:00:00", "2014-07-23T00:00:00", "July 12 (9598 bikes) & 13 (2579 bikes) removed from count due to Seattle to Portland mass bike event.", "1129", "1004", "3522", "784", "901", "959", "1087", "869", null, null, "650", "946", "837", "976", "825", "1094", "593", null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 47, "8ED4B43E-B81C-43EC-8623-59C6405F5080", 47, 1461621185, "954404", 1461621185, "954404", null, "581781", "SODO trail at S Massachusetts St", "2014-11-08T00:00:00", "2014-11-10T00:00:00", null, "42", "29", "72", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 48, "F3C2E022-B5D5-47E1-B289-84435A63814A", 48, 1461621185, "954404", 1461621185, "954404", null, "13190", "University Br s/o Point A (Eastside)", "2014-08-16T00:00:00", "2014-08-24T00:00:00", null, "626", "625", "1173", "1202", "1060", "1076", "991", "619", "594", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 49, "00159490-88DD-4B72-A468-8F5E374076D0", 49, 1461621185, "954404", 1461621185, "954404", null, "13190", "University Br s/o Point A (Westside)", "2014-08-16T00:00:00", "2014-08-24T00:00:00", null, "506", "558", "904", "1068", "1137", "1028", "789", "521", "568", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 50, "53DF664B-3D4C-4DE7-A23C-3C6D8941BF74", 50, 1461621185, "954404", 1461621185, "954404", null, "23148", "W Boston St e/o 1st Ave W", "2014-07-02T00:00:00", "2014-07-09T00:00:00", null, "47", "43", "55", "30", "45", "48", "56", "58", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 51, "EAB1BC55-8965-4233-818B-92DC6B5F9F12", 51, 1461621185, "954404", 1461621185, "954404", null, "13498", "Western Ave s/o Madison St NB", "2014-07-29T00:00:00", "2014-08-04T00:00:00", null, "184", "184", "172", "145", "58", "56", "178", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+, [ 52, "81BCAB85-B3D1-458C-BF79-690BFA4C11DE", 52, 1461621185, "954404", 1461621185, "954404", null, "13498", "Western Ave s/o Madison St SB", "2014-07-29T00:00:00", "2014-08-04T00:00:00", null, "238", "353", "234", "184", "88", "69", "56", null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null ]
+ ]
+}

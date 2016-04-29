@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+body {
+  font: 10px sans-serif;
+  text-align: center;
+  background: #4CA1AF; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4CA1AF , #C4E0E5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4CA1AF , #C4E0E5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
+}
+p {
+   position: relative;
+   width: 60%;
+   left: 20%;
+   right: 20%;
+   text-align: center;
+   font-size: 20px;
+}
+svg {
+   background: white;
+   padding-left: 50px;
+   padding-top: 20px;
+}
+#description {
+    font-size: 30px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<body>
+<h1>Seattle Bicycle Volumes in 2014</h1><br>
+<img src="http://www.seattleweekly.com/csp/mediapool/sites/dt.common.streams.StreamServer.cls?STREAMOID=I_T3LzZ7T05DokGtYahtS8$daE2N3K4ZzOUsqbU5sYu7$qkB_ThEmog18JBhUpyiWCsjLu883Ygn4B49Lvm9bPe2QeMKQdVeZmXF$9l$4uCZ8QDXhaHEp3rvzXRJFdy0KqPHLoMevcTLo3h8xh70Y6N_U_CryOsw6FTOdKL_jpQ-&CONTENTTYPE=image/jpeg" width="30%" height="auto"><br><br>
+<p><i>SDOT used Eco-Counter automated pneumatic tube counters to count cyclist volumes across the city. Most counts are for six days, but some may be longer or shorter. This is the data from counts conducted during 2014. Data can be retrieved from <a href="https://catalog.data.gov/dataset/2014-short-duration-automated-bike-counts">here</a>.</i></p><br>
+<form>
+    <b>Search for a street:</b>
+    <input id="input" name="search" type="text">
+    <input name="submit" type="button" value="Search" onclick="filter()">
+</form><br><br>
+<div id="space"></div><br>
+<div id="description"></div><br>
+<div id="map"></div>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script src="dataExploration.js"></script>
+</body>
